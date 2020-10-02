@@ -1,5 +1,11 @@
-### Hi there 👋
+<h3 style="display:flex;justify-content: space-between;">
+  <span>Hi there, I'm Nnian</span> 
+</h3>
 
+![Visitor Count](https://profile-counter.glitch.me/nnian/count.svg)
+
+[![Nnian's GitHub stats](https://github-readme-stats.vercel.app/api?username=nnian&count_private=true&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nnian&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **nnian/nnian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
