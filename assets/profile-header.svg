@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Alex — Qwertycoin</title>
+  <desc id="desc">Dark geometric banner for Qwertycoin protocol and infrastructure engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="0.52" stop-color="#0b1c22"/>
+      <stop offset="1" stop-color="#082a25"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35e6a2"/>
+      <stop offset="1" stop-color="#43c7ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#35e6a2" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#35e6a2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9debd0" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1030" cy="105" r="250" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#6fe5bd" stroke-opacity=".2" stroke-width="2">
+    <path d="M0 258h170l54-54h152l62-62h170"/>
+    <path d="M846 0v62l58 58h296"/>
+    <path d="M975 320v-58l48-48h177"/>
+    <circle cx="224" cy="204" r="5" fill="#35e6a2" stroke="none"/>
+    <circle cx="438" cy="142" r="5" fill="#43c7ff" stroke="none"/>
+    <circle cx="904" cy="120" r="5" fill="#35e6a2" stroke="none"/>
+  </g>
+
+  <g transform="translate(88 71)">
+    <circle cx="84" cy="84" r="70" fill="#0a171d" stroke="url(#accent)" stroke-width="4"/>
+    <circle cx="84" cy="84" r="56" fill="none" stroke="#35e6a2" stroke-opacity=".18" stroke-width="2"/>
+    <path d="M84 48c-26 0-44 18-44 37s18 37 44 37c8 0 15-2 21-5l15 15 13-13-14-13c6-6 9-13 9-21 0-19-18-37-44-37zm0 17c15 0 25 8 25 20 0 4-1 8-4 11L95 86 83 98l9 8c-2 0-5 1-8 1-15 0-25-9-25-22 0-12 10-20 25-20z" fill="url(#accent)" fill-rule="evenodd" filter="url(#softGlow)"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Helvetica,Arial,sans-serif">
+    <text x="280" y="133" fill="#f2fffb" font-size="64" font-weight="750" letter-spacing="3">ALEX</text>
+    <rect x="282" y="157" width="610" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="282" y="201" fill="#9debd0" font-size="22" font-weight="600" letter-spacing="5">QWERTYCOIN</text>
+    <text x="282" y="239" fill="#9fb5b6" font-size="17" font-weight="500" letter-spacing="2">PROTOCOL · INFRASTRUCTURE · WALLETS · RELEASES</text>
+  </g>
+
+  <g transform="translate(1080 254)" fill="none" stroke="url(#accent)" stroke-width="3">
+    <path d="M0-24 21-12v24L0 24l-21-12v-24z"/>
+    <path d="M-8-5h16M-8 5h16" stroke-width="2"/>
+  </g>
+</svg>
