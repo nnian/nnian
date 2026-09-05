@@ -1,22 +1,56 @@
-<h3 style="display:flex;justify-content: space-between;">
-  <span>Hi there, I'm Nnian</span> 
-</h3>
+<p align="center">
+  <img src="assets/profile-header.svg" alt="Alex — Qwertycoin protocol and infrastructure" width="100%">
+</p>
 
-![Visitor Count](https://profile-counter.glitch.me/nnian/count.svg)
+<h1 align="center">Hi, I'm Alex 👋</h1>
 
-[![Nnian's GitHub stats](https://github-readme-stats.vercel.app/api?username=nnian&count_private=true&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nnian&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-<!--
-**nnian/nnian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <strong>Building privacy-first cryptocurrency infrastructure in the Qwertycoin ecosystem.</strong>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://qwertycoin.org">Website</a>
+  ·
+  <a href="https://github.com/qwertycoin-org">Qwertycoin on GitHub</a>
+  ·
+  <a href="https://github.com/qwertycoin-org/qwertycoin">Core repository</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I work on
+
+- 🧭 **Qwertycoin** — protocol engineering, infrastructure, wallets, and tooling
+- 🔐 **Consensus and funds safety** — deterministic behavior, reviewable changes, and explicit failure modes
+- ⚙️ **Core systems** — C++, RandomX, P2P/RPC, LMDB, Docker, Linux, and release engineering
+- 🧪 **Production readiness** — reproducible builds, focused tests, threat modeling, and operational hardening
+
+## Current focus
+
+```text
+Qwertycoin v2
+├── secure, deterministic core protocol
+├── reliable public node infrastructure
+├── wallet and explorer interoperability
+└── reproducible, verifiable releases
+```
+
+## Selected projects
+
+| Project | Focus |
+| --- | --- |
+| [Qwertycoin Core](https://github.com/qwertycoin-org/qwertycoin) | Peer-to-peer protocol and reference implementation |
+| [Qwertycoin GUI](https://github.com/qwertycoin-org/qwertycoin-gui) | Desktop wallet |
+| [QWCX](https://github.com/qwertycoin-org/qwcx) | Cross-platform wallet |
+| [Qwertycoin Website](https://github.com/qwertycoin-org/qwertycoin-org.github.io) | Public project website |
+
+## Engineering principles
+
+```text
+simple          > clever
+deterministic   > implicit
+tested          > assumed
+reviewable      > rushed
+```
+
+<p align="center">
+  <sub>One commit a day keeps the hacker away.</sub>
+</p>
